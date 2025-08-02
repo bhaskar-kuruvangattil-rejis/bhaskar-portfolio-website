@@ -11,6 +11,8 @@ This project demonstrates modern web development practices including responsive 
 ## 🚀 Tech Stack
 
 - **React,js**
+- **TypeScript**
+- **CSS**
 - **Vercel (Deployment)**
 
 ---
