@@ -1,9 +1,10 @@
-# Bhaskar B - Personal Portfolio Website
+# Bhaskar Kuruvangattil Rejis - Personal Portfolio Website
 
-This is my personal portfolio website built using **Next.js 14 (App Router)**, **TypeScript**, and **Tailwind CSS**, deployed on **Vercel**.
+A modern, responsive personal portfolio website built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**. This portfolio showcases my skills, projects, and professional experience as a software developer.
 
-The portfolio showcases my skills, projects, and professional background in a clean and responsive design.  
-It is fully custom-built to demonstrate my web development abilities.
+🌐 **Live Website**: [Visit Portfolio](https://your-portfolio-url.vercel.app)
+
+This project demonstrates modern web development practices including responsive design, clean code architecture, and performance optimization.
 
 ---
 
@@ -31,8 +32,8 @@ src/
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/YOUR_GITHUB_USERNAME/my-portfolio.git
-    cd my-portfolio
+    git clone https://github.com/bhaskar-kuruvangattil-rejis/bhaskar-portfolio-website.git
+    cd bhaskar-portfolio-website
     ```
 
 2. Install dependencies:
