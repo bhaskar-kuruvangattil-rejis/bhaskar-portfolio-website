@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio website built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**. This portfolio showcases my skills, projects, and professional experience as a software developer.
 
-🌐 **Live Website**: ([Visit Portfolio]([https://bhaskar-portfolio-test.vercel.app/])) 
+🌐 **Live Website**: [Visit Portfolio](https://bhaskar-portfolio-test.vercel.app/)
 
 This project demonstrates modern web development practices including responsive design, clean code architecture, and performance optimization.
 
