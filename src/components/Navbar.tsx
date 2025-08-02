@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/link';
+// import Link from 'next/link'; // Not used in current implementation
 
 const smoothScroll = (elementId: string) => {
   const element = document.getElementById(elementId);
