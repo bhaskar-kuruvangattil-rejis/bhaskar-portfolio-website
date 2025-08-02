@@ -10,21 +10,8 @@ This project demonstrates modern web development practices including responsive 
 
 ## 🚀 Tech Stack
 
-- **Next.js 14 (App Router)**
-- **TypeScript**
-- **Tailwind CSS**
-- **ESLint + Prettier (Airbnb style guide)**
+- **React,js**
 - **Vercel (Deployment)**
-
----
-
-## 📁 Project Structure
-
-src/
-├── app/            # App Router pages and layouts
-├── components/     # Reusable UI components (Navbar, Footer)
-├── styles/         # Global styles (Tailwind CSS)
-└── public/         # Static files (images, favicon)
 
 ---
 
@@ -46,17 +33,12 @@ src/
     npm run dev
     ```
 
-4. Open your browser at `http://localhost:3000`
-
 ---
 
 ## ✨ Features
 
 - Modern, minimal, and professional UI
 - Fully responsive design
-- SEO-friendly metadata
-- Clean code with ESLint + Prettier
-- Uses App Router and TypeScript best practices
 
 ---
 
