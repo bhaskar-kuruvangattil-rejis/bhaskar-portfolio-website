@@ -4,7 +4,8 @@ import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useState } from 'react';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+// Icons imported for future use
+// import { Mail, Phone, MapPin, Send } from 'lucide-react';
 
 export default function Home() {
   const [skillsRef, skillsInView] = useInView({
@@ -17,7 +18,7 @@ export default function Home() {
     threshold: 0.1,
   });
 
-  const [contactRef, contactInView] = useInView({
+  const [contactRef] = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });
@@ -274,7 +275,7 @@ export default function Home() {
                   value={formData.message}
                   onChange={handleInputChange}
                   placeholder="Your Message"
-                  rows="4"
+                  rows={4}
                   className="p-3 rounded-md bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100"
                   required
                 />
@@ -304,7 +305,7 @@ export default function Home() {
               About Me
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed mb-8">
-              I'm a passionate software developer with a strong foundation in full-stack development. 
+              I&apos;m a passionate software developer with a strong foundation in full-stack development.
               I enjoy building scalable web applications and am always eager to learn new technologies 
               and tackle challenging problems. My experience spans frontend development with React and Next.js, 
               backend development with Node.js and Python, and working with modern development tools and practices.
