@@ -67,3 +67,12 @@ You can reach me at:
 - [Email](bkuruvangattilrejis@gmail.com)
 
 ---
+
+
+## Examples
+
+```python
+# Basic usage example
+print("Hello, World!")
+```
+
