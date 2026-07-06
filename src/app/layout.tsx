@@ -15,8 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bhaskar B Portfolio",
-  description: "Professional Portfolio showcasing projects, skills, and more.",
+  title: "Bhaskar B | Full-Stack Developer Portfolio",
+  description:
+    "Portfolio of Bhaskar Kuruvangattil Rejis — Full-Stack Developer specializing in React, Next.js, TypeScript, and modern web technologies.",
 };
 
 export default function RootLayout({
@@ -30,7 +31,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar />
-        <main className="min-h-screen">{children}</main>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>

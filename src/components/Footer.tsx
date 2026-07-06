@@ -1,36 +1,47 @@
+import { Github, Linkedin, Mail } from "lucide-react";
+import { personalInfo } from "@/data/portfolio";
+
 export default function Footer() {
+  const year = new Date().getFullYear();
+
   return (
-    <footer className="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0">
-            <p className="text-gray-600 dark:text-gray-400 text-sm">
-              © 2024 Bhaskar B. All rights reserved.
+    <footer className="bg-slate-950 text-slate-400 border-t border-slate-800">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+          <div className="text-center md:text-left">
+            <p className="text-white font-semibold text-lg mb-1">
+              {personalInfo.name}
+            </p>
+            <p className="text-sm">
+              &copy; {year} {personalInfo.fullName}. All rights reserved.
             </p>
           </div>
-          
-          <div className="flex space-x-6">
+
+          <div className="flex items-center gap-5">
             <a
-              href="https://linkedin.com/in/bhaskar-kuruvangattil-rejis-a0452330a"
+              href={personalInfo.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+              className="hover:text-white transition-colors"
+              aria-label="LinkedIn"
             >
-              LinkedIn
+              <Linkedin size={20} />
             </a>
             <a
-              href="mailto:bkuruvangattilrejis@gmail.com"
-              className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+              href={`mailto:${personalInfo.email}`}
+              className="hover:text-white transition-colors"
+              aria-label="Email"
             >
-              Email
+              <Mail size={20} />
             </a>
             <a
-              href="https://github.com/bhaskar-kuruvangattil-rejis"
+              href={personalInfo.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+              className="hover:text-white transition-colors"
+              aria-label="GitHub"
             >
-              GitHub
+              <Github size={20} />
             </a>
           </div>
         </div>
