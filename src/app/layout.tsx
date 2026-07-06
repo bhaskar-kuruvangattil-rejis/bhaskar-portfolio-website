@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import BeeeezWidget from "@/components/BeeeezWidget";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,7 +34,10 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
-        <BeeeezWidget />
+        <Script
+          src="https://3beeez.com/widget-script?installToken=35a67d6815c37f6710610745b03b31dd3068d0e5&position=bottom-right"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
