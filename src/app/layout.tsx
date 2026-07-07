@@ -35,7 +35,7 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
         <Script
-          src="https://3beeez.com/widget-script?installToken=35a67d6815c37f6710610745b03b31dd3068d0e5&position=bottom-right"
+          src="https://3beeez.com/widget-script?installToken=5cabf32c4eb08fd222efe94880f72391ec743968&position=bottom-right"
           strategy="afterInteractive"
         />
       </body>
